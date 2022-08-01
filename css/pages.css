@@ -1,0 +1,68 @@
+.breadcrumb-holder {
+  background-color: #f5f5f5;    
+}
+.breadcrumb {
+  padding: 10px 0px;
+}
+.about-us {
+  padding: 70px 0;
+}
+.about-us .h1 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: -3px;
+  font-size: 62px;
+}
+.about-us hr {
+  width: 70%;
+}
+.about-features {
+  padding: 0 0 70px;
+}
+.about-features h3 {
+font-weight: bold;
+font-size: 40px;
+}
+.about-features p {
+  margin-bottom: 20px;
+}
+.about-ceo {
+  background-color: #eee;
+  padding-top: 40px;
+}
+.about-ceo h2 {
+  font-weight: bold;
+}
+.about-ceo .lead {
+  line-height: 1.8;
+}
+.about-ceo .btn-primary {
+  background-color: #333;
+  border-color: #333;
+  display: inline-block;
+}
+/** FAQ **/
+.faq {
+  padding: 40px 0;
+
+}
+.faq .h1 {
+  letter-spacing: -3px;
+  font-size: 65px;
+  font-weight: bold;
+}
+.faq .h1 ~ hr {
+  width: 70%;
+}
+.faq-q .panel-heading {
+  padding: 20px 15px;
+}
+.faq-q .panel-heading a:after {
+  font-family: 'Glyphicons Halflings';
+  content: "\e114";
+  float: right;
+  color: #444;
+}
+.faq-q .panel-heading a.collapsed:after {
+  content: "\e080";
+  color: #aaa;
+}
